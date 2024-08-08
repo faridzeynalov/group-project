@@ -6,4 +6,4 @@ const index = () => {
   )
 }
 
-export default in
+export default index
