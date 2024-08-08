@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1140px;
+  width: 100%;
+}
+
+#Banner {
+  background-color: #c8ebff;
+  padding: 60px 0;
+  background-image: url("../../../../public/img/hero_man.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  .container {
+    justify-content: flex-end;
+
+    .boxcontainer {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 30px 0;
+      width: 50%;
+      .discount {
+        color: #2577fd;
+        font-size: 40px;
+      }
+      .wintercollection {
+        color: #1f2022;
+        font-family: "Playfair Display", serif;
+        text-transform: uppercase;
+        font-size: 100px;
+        font-weight: 700;
+        line-height: 1.1;
+        text-transform: capitalize;
+        margin-bottom: 13px;
+      }
+      .best {
+        font-style: italic;
+        font-size: 20px;
+        line-height: 1.2;
+        font-weight: 300;
+        margin-bottom: 39px;
+        color: #313639;
+        margin-bottom: 50px;
+        text-transform: capitalize;
+      }
+      .shopnowbtn {
+        background: #2577fd;
+        text-transform: capitalize;
+        color: #fff;
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        padding: 10px 44px;
+        border-radius: 25px;
+        margin: 10px;
+        cursor: pointer;
+        transition: color 0.4s linear;
+        border: 0;
+        margin: 0;
+        // width: 155px;
+      }
+    }
+  }
+}

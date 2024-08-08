@@ -1,9 +1,12 @@
-import React from 'react'
+import Banner from "../../components/Banner";
+import Layout from "../../components/Layout";
 
-const index = () => {
+const Home = () => {
   return (
-    <div>index</div>
-  )
-}
+    <>
+      <Banner />
+    </>
+  );
+};
 
-export default index
+export default Home;

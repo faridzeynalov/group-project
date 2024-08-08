@@ -1,1 +1,270 @@
-/*# sourceMappingURL=main.css.map */
+header {
+  background-color: #fff;
+  box-shadow: 0 0px 10px 6px rgba(85, 85, 85, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10rem;
+}
+header .container .logo a {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #333;
+}
+header .container .logo a span {
+  color: #fe4c50;
+}
+header .container .headerMid {
+  display: flex;
+  column-gap: 5rem;
+  align-items: center;
+}
+header .container .headerMid ul {
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+}
+header .container .headerMid ul li a {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #1e1e27;
+  text-transform: uppercase;
+  line-height: 2.3rem;
+  transition: all 0.3s ease;
+}
+header .container .headerMid ul li a:hover {
+  color: #b5aec4;
+}
+header .container .headerMid ul button {
+  display: none;
+}
+header .container .headerMid > div {
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+}
+header .container .headerMid > div a {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eceff6;
+}
+header .container .headerMid > div a i {
+  color: #1e1e27;
+  font-size: 1.6rem;
+  transition: all 0.3s ease;
+}
+header .container .headerMid > div a:hover i {
+  color: #b5aec4;
+}
+header .container .headerMid > div button {
+  background-color: transparent;
+  font-size: 1.8rem;
+  display: none;
+}
+header .container .headerRight {
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+  justify-content: flex-end;
+}
+header .container .headerRight .search {
+  position: relative;
+}
+header .container .headerRight .search input {
+  width: 20rem;
+  height: 3.5rem;
+  padding: 0 2rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 10rem;
+  font-size: 1.4rem;
+  color: #1e1e27;
+  transition: all 0.3s ease;
+}
+header .container .headerRight .search input:focus {
+  border-color: #fe4c50;
+}
+header .container .headerRight .search i {
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+  font-size: 1.6rem;
+  color: #1e1e27;
+}
+header .container .headerRight .favs a {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eceff6;
+}
+header .container .headerRight .favs a i {
+  color: #1e1e27;
+  font-size: 1.6rem;
+  transition: all 0.3s ease;
+}
+header .container .headerRight .favs a:hover i {
+  color: #b5aec4;
+}
+header .container .headerRight .basket a {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eceff6;
+}
+header .container .headerRight .basket a i {
+  color: #1e1e27;
+  font-size: 1.6rem;
+  transition: all 0.3s ease;
+}
+header .container .headerRight .basket a:hover i {
+  color: #b5aec4;
+}
+header .container .headerRight .signin {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 2.3rem;
+  transition: all 0.3s ease;
+  border-radius: 10rem;
+  padding: 1rem 2.4rem;
+  background-color: #0f2da2;
+}
+header .container .headerRight .signin:hover {
+  color: #b5aec4;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    position: fixed;
+    width: 100%;
+  }
+  header .container {
+    height: 8rem;
+  }
+  header .container .logo a {
+    font-size: 2rem;
+  }
+  header .container .headerMid ul {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fefefe;
+    flex-direction: column;
+    padding-top: 10rem;
+    transition: all 0.3s ease;
+    transform: translateX(100%);
+  }
+  header .container .headerMid ul li {
+    width: 100%;
+  }
+  header .container .headerMid ul li a {
+    width: 100%;
+    text-align: end;
+    padding: 1rem;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  header .container .headerMid ul button {
+    display: block;
+    position: absolute;
+    top: 2.4rem;
+    right: 1.6rem;
+    font-size: 2rem;
+    color: #1e1e27;
+    background-color: transparent;
+  }
+  header .container .headerMid ul.active {
+    transform: translateX(0);
+  }
+  header .container .headerMid > div a {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+  header .container .headerMid > div a i {
+    font-size: 1.4rem;
+  }
+  header .container .headerMid > div button {
+    display: block;
+  }
+}
+.container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1140px;
+  width: 100%;
+}
+
+#Banner {
+  background-color: #c8ebff;
+  padding: 60px 0;
+  background-image: url("../../../../public/img/hero_man.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#Banner .container {
+  justify-content: flex-end;
+}
+#Banner .container .boxcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px 0;
+  width: 50%;
+}
+#Banner .container .boxcontainer .discount {
+  color: #2577fd;
+  font-size: 40px;
+}
+#Banner .container .boxcontainer .wintercollection {
+  color: #1f2022;
+  font-family: "Playfair Display", serif;
+  text-transform: uppercase;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 1.1;
+  text-transform: capitalize;
+  margin-bottom: 13px;
+}
+#Banner .container .boxcontainer .best {
+  font-style: italic;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 300;
+  margin-bottom: 39px;
+  color: #313639;
+  margin-bottom: 50px;
+  text-transform: capitalize;
+}
+#Banner .container .boxcontainer .shopnowbtn {
+  background: #2577fd;
+  text-transform: capitalize;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding: 10px 44px;
+  border-radius: 25px;
+  margin: 10px;
+  cursor: pointer;
+  transition: color 0.4s linear;
+  border: 0;
+  margin: 0;
+}/*# sourceMappingURL=main.css.map */
