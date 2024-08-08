@@ -19,17 +19,17 @@ header .container .logo a {
 header .container .logo a span {
   color: #fe4c50;
 }
-header .container .headerRight {
+header .container .headerMid {
   display: flex;
   column-gap: 5rem;
   align-items: center;
 }
-header .container .headerRight ul {
+header .container .headerMid ul {
   display: flex;
   align-items: center;
   column-gap: 2rem;
 }
-header .container .headerRight ul li a {
+header .container .headerMid ul li a {
   font-size: 1.3rem;
   font-weight: 500;
   color: #1e1e27;
@@ -37,18 +37,18 @@ header .container .headerRight ul li a {
   line-height: 2.3rem;
   transition: all 0.3s ease;
 }
-header .container .headerRight ul li a:hover {
+header .container .headerMid ul li a:hover {
   color: #b5aec4;
 }
-header .container .headerRight ul button {
+header .container .headerMid ul button {
   display: none;
 }
-header .container .headerRight > div {
+header .container .headerMid > div {
   display: flex;
   align-items: center;
   column-gap: 2rem;
 }
-header .container .headerRight > div a {
+header .container .headerMid > div a {
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
@@ -57,18 +57,96 @@ header .container .headerRight > div a {
   align-items: center;
   background-color: #eceff6;
 }
-header .container .headerRight > div a i {
+header .container .headerMid > div a i {
   color: #1e1e27;
   font-size: 1.6rem;
   transition: all 0.3s ease;
 }
-header .container .headerRight > div a:hover i {
+header .container .headerMid > div a:hover i {
   color: #b5aec4;
 }
-header .container .headerRight > div button {
+header .container .headerMid > div button {
   background-color: transparent;
   font-size: 1.8rem;
   display: none;
+}
+header .container .headerRight {
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+  justify-content: flex-end;
+}
+header .container .headerRight .search {
+  position: relative;
+}
+header .container .headerRight .search input {
+  width: 20rem;
+  height: 3.5rem;
+  padding: 0 2rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 10rem;
+  font-size: 1.4rem;
+  color: #1e1e27;
+  transition: all 0.3s ease;
+}
+header .container .headerRight .search input:focus {
+  border-color: #fe4c50;
+}
+header .container .headerRight .search i {
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+  font-size: 1.6rem;
+  color: #1e1e27;
+}
+header .container .headerRight .favs a {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eceff6;
+}
+header .container .headerRight .favs a i {
+  color: #1e1e27;
+  font-size: 1.6rem;
+  transition: all 0.3s ease;
+}
+header .container .headerRight .favs a:hover i {
+  color: #b5aec4;
+}
+header .container .headerRight .basket a {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eceff6;
+}
+header .container .headerRight .basket a i {
+  color: #1e1e27;
+  font-size: 1.6rem;
+  transition: all 0.3s ease;
+}
+header .container .headerRight .basket a:hover i {
+  color: #b5aec4;
+}
+header .container .headerRight .signin {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 2.3rem;
+  transition: all 0.3s ease;
+  border-radius: 10rem;
+  padding: 1rem 2.4rem;
+  background-color: #0f2da2;
+}
+header .container .headerRight .signin:hover {
+  color: #b5aec4;
 }
 
 @media screen and (max-width: 768px) {
@@ -82,7 +160,7 @@ header .container .headerRight > div button {
   header .container .logo a {
     font-size: 2rem;
   }
-  header .container .headerRight ul {
+  header .container .headerMid ul {
     position: fixed;
     left: 0;
     top: 0;
@@ -94,16 +172,16 @@ header .container .headerRight > div button {
     transition: all 0.3s ease;
     transform: translateX(100%);
   }
-  header .container .headerRight ul li {
+  header .container .headerMid ul li {
     width: 100%;
   }
-  header .container .headerRight ul li a {
+  header .container .headerMid ul li a {
     width: 100%;
     text-align: end;
     padding: 1rem;
     border-bottom: 1px solid #e0e0e0;
   }
-  header .container .headerRight ul button {
+  header .container .headerMid ul button {
     display: block;
     position: absolute;
     top: 2.4rem;
@@ -112,17 +190,17 @@ header .container .headerRight > div button {
     color: #1e1e27;
     background-color: transparent;
   }
-  header .container .headerRight ul.active {
+  header .container .headerMid ul.active {
     transform: translateX(0);
   }
-  header .container .headerRight > div a {
+  header .container .headerMid > div a {
     width: 3.5rem;
     height: 3.5rem;
   }
-  header .container .headerRight > div a i {
+  header .container .headerMid > div a i {
     font-size: 1.4rem;
   }
-  header .container .headerRight > div button {
+  header .container .headerMid > div button {
     display: block;
   }
 }/*# sourceMappingURL=main.css.map */
