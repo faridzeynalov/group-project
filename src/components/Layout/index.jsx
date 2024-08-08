@@ -1,13 +1,13 @@
-import Header from './Header'
-
+import Header from "./Header";
+import { Outlet } from "react-router-dom";
 // eslint-disable-next-line react/prop-types
-const Layout = ({children}) => {
+const Layout = ({ children }) => {
   return (
     <>
-    <Header />
-    {children}
+      <Header />
+      <Outlet />
     </>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;
