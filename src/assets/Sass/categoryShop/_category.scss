@@ -1,0 +1,96 @@
+.third-part {
+    .swiper-button-next{
+        color: red;
+        margin-left: 150px;
+    }
+    .swiper-button-prev{
+        color: red;
+    }
+    h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .red-line {
+        width: 70px;
+        background-color: red;
+        border: none;
+        height: 5px;
+        margin-left: 49%;
+
+    }
+
+    .btn {
+        border: 1px solid silver;
+        border-radius: 5px;
+
+    }
+
+    .btn:hover {
+        border: 1px solid silver !important;
+
+    }
+}
+.new-arrivals {
+    flex-direction: column;
+}
+
+.card-4 {
+    // display: flex;
+    // height: auto;
+    width: 370px;
+    // background-image: url('https://preview.colorlib.com/theme/coloshop/images/blog_1.jpg.webp');
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-image: url('https://preview.colorlib.com/theme/estore/assets/img/categori/cat1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.card-5 {
+    // display: flex;
+    // // height: auto;
+    width: 370px;
+    background-image: url('https://preview.colorlib.com/theme/estore/assets/img/categori/cat2.jpg');
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    // background-image: url('https://preview.colorlib.com/theme/coloshop/images/blog_3.jpg.webp');
+    background-size: cover;
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.card-6 {
+    // position: relative;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // height: 300px;
+    background-image: url('https://preview.colorlib.com/theme/estore/assets/img/categori/cat3.jpg');
+    // background-size: cover;
+    // background-position: center;
+    // background-size: 90%;
+    // background-repeat: no-repeat;
+
+    width: 370px;
+    // background-image: url('https://preview.colorlib.com/theme/coloshop/images/blog_2.jpg.webp');
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    // background-image: url('https://preview.colorlib.com/theme/coloshop/images/blog_3.jpg.webp');
+    background-size: cover;
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}

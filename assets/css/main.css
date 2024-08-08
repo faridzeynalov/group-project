@@ -21,13 +21,15 @@ header .container .logo a span {
 }
 header .container .headerMid {
   display: flex;
-  column-gap: 5rem;
+  -moz-column-gap: 5rem;
+       column-gap: 5rem;
   align-items: center;
 }
 header .container .headerMid ul {
   display: flex;
   align-items: center;
-  column-gap: 2rem;
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
 }
 header .container .headerMid ul li a {
   font-size: 1.3rem;
@@ -46,7 +48,8 @@ header .container .headerMid ul button {
 header .container .headerMid > div {
   display: flex;
   align-items: center;
-  column-gap: 2rem;
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
 }
 header .container .headerMid > div a {
   width: 4rem;
@@ -73,7 +76,8 @@ header .container .headerMid > div button {
 header .container .headerRight {
   display: flex;
   align-items: center;
-  column-gap: 2rem;
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
   justify-content: flex-end;
 }
 header .container .headerRight .search {
@@ -204,6 +208,44 @@ header .container .headerRight .signin:hover {
     display: block;
   }
 }
+footer {
+  margin-top: 100px;
+}
+footer .icon {
+  font-size: 1rem;
+  color: #6c757d;
+}
+footer .icon:hover {
+  color: #343a40;
+}
+footer .footer {
+  height: 300px;
+  display: flex;
+}
+footer .footer .news {
+  line-height: 0.5;
+}
+footer .footer .top {
+  margin-top: 36px;
+}
+footer .footer input {
+  width: 300px;
+  height: 40px;
+  border: 0;
+  color: gray;
+}
+footer .footer button {
+  width: 170px;
+  background-color: rgba(255, 0, 0, 0.815);
+  height: 47px;
+  border-radius: none;
+  border: none;
+  color: white;
+}
+footer .last {
+  margin: 50px 0 100px 0;
+}
+
 .container {
   display: flex;
   margin: 0 auto;
@@ -217,4 +259,75 @@ header .container .headerRight .signin:hover {
   background-image: url("../../../../public/img/hero_man.png");
   background-repeat: no-repeat;
   background-size: contain;
-}/*# sourceMappingURL=main.css.map */
+}
+.third-part .swiper-button-next {
+  color: red;
+  margin-left: 150px;
+}
+.third-part .swiper-button-prev {
+  color: red;
+}
+.third-part h1 {
+  font-size: 50px;
+  text-align: center;
+}
+.third-part .red-line {
+  width: 70px;
+  background-color: red;
+  border: none;
+  height: 5px;
+  margin-left: 49%;
+}
+.third-part .btn {
+  border: 1px solid silver;
+  border-radius: 5px;
+}
+.third-part .btn:hover {
+  border: 1px solid silver !important;
+}
+
+.new-arrivals {
+  flex-direction: column;
+}
+
+.card-4 {
+  width: 370px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-image: url("https://preview.colorlib.com/theme/estore/assets/img/categori/cat1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-size: 90%;
+  background-repeat: no-repeat;
+}
+
+.card-5 {
+  width: 370px;
+  background-image: url("https://preview.colorlib.com/theme/estore/assets/img/categori/cat2.jpg");
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-size: 90%;
+  background-repeat: no-repeat;
+}
+
+.card-6 {
+  background-image: url("https://preview.colorlib.com/theme/estore/assets/img/categori/cat3.jpg");
+  width: 370px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-size: 90%;
+  background-repeat: no-repeat;
+}
