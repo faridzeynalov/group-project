@@ -125,4 +125,18 @@ header .container .headerRight > div button {
   header .container .headerRight > div button {
     display: block;
   }
+}
+.container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1140px;
+  width: 100%;
+}
+
+#Banner {
+  background-color: #c8ebff;
+  height: 100vh;
+  background-image: url("../../../../public/img/hero_man.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }/*# sourceMappingURL=main.css.map */

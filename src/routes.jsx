@@ -1,5 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
+
 import Home from "./pages/Home";
+import Layout from "./components/Layout";
 // import DetailPage from "./pages/DetailPage";
 // import { categoryLoader } from "./pages/DetailPage/loader";
 // import AddPage from "./pages/AddPage";
@@ -9,29 +11,29 @@ import Home from "./pages/Home";
 export const ROUTES = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <Layout />,
     children: [
-    //   {
-    //     path: ":categoryId",
-    //     loader: categoryLoader,
-    //     element: <DetailPage />,
-    //   },
+      {
+        index: true,
+
+        element: <Home />,
+      },
     ],
   },
-//   {
-//     path: "/add-product",
-//     element: <AddPage />,
-//     // children: [
-      
-//     // ],
-//   },
-//   {
-//     path: "/edit/:categoryId",
-//     loader: categoryLoader,
-//     element: <AddPage />,
-//   },
-//   {
-//     path: "/basket",
-//     element: <BasketPage />,
-//   },
+  //   {
+  //     path: "/add-product",
+  //     element: <AddPage />,
+  //     // children: [
+
+  //     // ],
+  //   },
+  //   {
+  //     path: "/edit/:categoryId",
+  //     loader: categoryLoader,
+  //     element: <AddPage />,
+  //   },
+  //   {
+  //     path: "/basket",
+  //     element: <BasketPage />,
+  //   },
 ]);
