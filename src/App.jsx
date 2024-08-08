@@ -3,10 +3,6 @@ import {ROUTES} from './routes'
 
 function App() {
 
-  
-
-
-
   return (
     <>
       <RouterProvider router={ROUTES} />
